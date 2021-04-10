@@ -52,10 +52,10 @@ print('take string and turn into list (array): ', s.split())
 print('find the pos of the character: ', s.find('r'))
 
 # Is all alphanumeric
-print('return true or false is all characters alphanumeric?: ', s.isalnum())
+print('return true or false is all characters alphanumeric?: ', s.isalnum()) # false because of the space inbetween the words
 
 # Is all alphabetic
-print('return true or false is all characters alphabetic?: ', s.isalpha())
+print('return true or false is all characters alphabetic?: ', s.isalpha()) # false because of the space inbetween the words
 
 # Is all numeric
 print('return true or false is all character numeric?: ', s.isnumeric())
