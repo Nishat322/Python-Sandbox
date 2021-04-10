@@ -38,6 +38,10 @@ print ('Apples' in fruits_set)
 fruits_set.add('Grapes')
 print(fruits_set)
 
+# Add to set 
+fruits_set.add('Apples')
+print(fruits_set) # Will no give errors but will not add it 
+
 # Remove
 fruits_set.remove('Grapes')
 print(fruits_set)
@@ -45,4 +49,6 @@ print(fruits_set)
 # clear set 
 fruits_set.clear()
 print(fruits_set) # gives empty set
+
+
 
