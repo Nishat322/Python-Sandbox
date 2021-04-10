@@ -29,6 +29,9 @@ print('remove', fruits)
 fruits.insert(2, 'Strawberries')
 print('insert at pos', fruits)
 
+# Change value
+fruits[0] = 'Blueberries'
+
 # Remove from specific positions
 fruits.pop(2)
 print('remove from pos',fruits)
